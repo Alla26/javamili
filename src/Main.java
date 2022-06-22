@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
         double price = 1350.75;
-        int x = 20;
+        int quantityPerMile = 20;
 
-        int m = (int) (price / x);
-        System.out.println(("Количество миль: ") + m);
+        int mile = (int) (price / quantityPerMile);
+        System.out.println(("Количество миль: ") + mile);
 
-        //System.out.println(("Количество миль: ") + ((int) (price / x)));//
+        //System.out.println(("Количество миль: ") + ((int) (price / quantityPerMile)));
 
         /*int priceSecond = 135;
-        int y = 20;
-          if (priceSecond>=y) {
-            System.out.println(("Количество миль: ") + (priceSecond / y));
-        }
-        else { System.out.println("Потраченных денежных средств недостаточно для начисления миль"); }*/
+        int quantityPerMileSecond = 20;
+        if (priceSecond >= quantityPerMileSecond) {
+            System.out.println(("Количество миль: ") + (priceSecond / quantityPerMileSecond));
+        } else {
+            System.out.println("Потраченных денежных средств недостаточно для начисления миль");}*/
     }
 }
